@@ -1,0 +1,143 @@
+#navbar{
+    width: 1230px;
+    height: 60px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Albert Sans', sans-serif;
+}
+#navbar>div{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-weight: 600;
+    font-size: 0.85rem;
+}
+#navbar>div>img{
+    width: 35px;
+    height: 35px;
+    margin-right: -20px;
+}
+#navbar>div>button{
+    width: 170px;
+    height: 45px;
+    background-color: #f37e5d;
+    color: white;
+    font-weight: 600;
+    font-family: 'Albert Sans', sans-serif;
+    border: 0px;
+    border-radius: 5px;
+}
+#navbar>div>button:hover{
+    background-color: #f76238;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    padding: 27px 0px;
+    border: 1px solid black;
+}
+.downmenu{
+    display: none;
+    position: absolute;
+    top: 70px;
+    left: -180px;
+    min-width: 730px;
+    z-index: 1;
+    padding: 20px 0px;
+    font-family: 'Albert Sans', sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 5px;
+}
+.downmenu:hover{
+    cursor: pointer;
+}
+.downmenu>div:nth-child(1){
+    width: 380px;
+    border-right: 0.5px solid gainsboro;
+}
+.downmenu>div{
+    margin-left: 40px;
+}
+.downmenu>div>p{
+    font-size: 0.8rem;
+    color: rgb(163, 162, 162);
+    font-weight: 600;
+}
+.downmenu>div>div{
+    width: 330px;
+    padding: 10px 15px;
+    display: flex;
+    align-items: flex-start;
+}
+.downmenu>div>div:hover{
+    background-color: rgb(245, 245, 245);
+}
+.downmenu>div>div>img{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+.downmenu>div>div>p{
+    font-size: 1.3rem;
+    font-weight: 600;
+    line-height: 17px;
+}
+.downmenu>div>div>p>span{
+    font-size: 0.8rem;
+    font-weight: 100;
+    line-height: normal;
+}
+.downmenu>div:nth-child(2)>div{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+.downmenu>div:nth-child(2)>div:nth-child(2){
+    margin-bottom: 70px;
+}
+.downmenu>div:nth-child(2)>div>img{
+    width: 30px;
+    height: 30px;
+}
+.dropdown:hover .downmenu{
+    display: block;
+    display: flex;
+}
+.downmenu1{
+    width: 260px;
+    display: none;
+    position: absolute;
+    top: 70px;
+    left: -15px;
+    padding: 20px;
+    font-family: 'Albert Sans', sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    z-index: 1;
+    border-radius: 5px;
+}
+.downmenu1>div{
+    margin: auto;
+    padding: 15px;
+}
+.downmenu1>div:hover{
+    background-color: rgb(245, 245, 245);
+}
+.downmenu1>div>p{
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin-top:4px;
+    margin-bottom: -12px;
+}
+.downmenu1>div>span{
+    font-size: 0.8rem;
+    font-weight: 100;
+}
+.dropdown:hover .downmenu1{
+    display: block;
+}
