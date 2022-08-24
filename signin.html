@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign-in Page</title>
+    <link rel="stylesheet" href="signin.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="img">
+        <div>
+          <img
+            src="https://accounts.coschedule.com/img/login-illustrations/10-23e468c3d19df9a47bbc54566803015c.png"
+          />
+        </div>
+      </div>
+      <div id="form">
+        <div id="logo">
+          <img src="https://accounts.coschedule.com/img/cos-logo-horz.svg" />
+        </div>
+        <div id="inputs">
+          <p class="abovebox">EMAIL ADDRESS</p>
+          <input type="email" id="email" placeholder="Email Address" />
+          <p class="abovebox">PASSWORD</p>
+          <input type="password" id="password" placeholder="Password" />
+        </div>
+        <div class="btns">
+          <button id="signin" onclick="signin()">Sign In</button>
+          <p>OR</p>
+          <button>
+            <img
+              class="img"
+              src="https://accounts.coschedule.com/img/sso-providers/Google.svg"
+            /><span>Continue with Google</span>
+          </button>
+          <button>
+            <img
+              class="img"
+              src="https://accounts.coschedule.com/img/sso-providers/Facebook.svg"
+            /><span>Continue with Facebook</span>
+          </button>
+          <button>
+            <img
+              class="img"
+              src="https://accounts.coschedule.com/img/sso-providers/apple.svg"
+            /><span>Continue with Apple</span>
+          </button>
+          <div id="bottom">
+            <a class="bottom" href="signup.html">Need an account?</a>
+            <span>|</span>
+            <a class="bottom" href="forgotpassword.html"
+              >Forgot your password</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+<script src="signin.js"></script>

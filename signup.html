@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signup Page</title>
+    <link rel="stylesheet" href="signup.css">
+    
+  </head>
+  <body>
+    <div id="title">
+      <h1>Create My Marketing Calendar</h1>
+      <p id="title-p">Free for life. No credit card required.</p>
+      
+      <div id="container">
+        <div id="form">
+          <p class="aboveinputs">Full Name</p>
+          <input type="text" id="fullname" placeholder="Full name" />
+          <p class="aboveinputs" id="emailabove">Email Address</p>
+          <input type="email" id="email" placeholder="Work Email address" />
+          <p class="aboveinputs">Password</p>
+          <input
+            type="password"
+            id="password"
+            placeholder="Password(minimum 8 characters)"
+          />
+        </div>
+        <div id="btns">
+          <button id="signup" onclick="started()">Get Started Now</button>
+          <p>OR</p>
+          <button class="link">
+            <img
+              class="img"
+              src="https://accounts.coschedule.com/img/sso-providers/Google.svg"
+            />
+            <span>Sign Up with Google</span>
+          </button>
+          <button class="link">
+            <img
+              class="img"
+              src="https://accounts.coschedule.com/img/sso-providers/Facebook.svg"
+            />
+            <span>Sign Up with Facebook</span>
+          </button>
+          <button class="link">
+            <img
+              class="img"
+              src="https://accounts.coschedule.com/img/sso-providers/apple.svg"
+            />
+            <span>Sign Up with Apple</span>
+          </button>
+         
+        </div>
+        <p id="last">By clicking "Get Started Now", you agree to CoSchedule’s terms of service, end user agreement, and privacy policy; you are 16 years or older; and you will receive information from CoSchedule from which you can opt out at any time.</p> 
+    </div>
+
+  </body>
+</html>
+<script src="signup.js">
+</script>
