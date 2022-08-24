@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/f426985a11.js" crossorigin="anonymous"></script>
+    <link href="footer.css" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        #nav{
+            width: 100%;
+            height: 350px;
+            text-align: center;
+            background-color: rgb(0, 187, 255);
+            color: white;
+            font-size: 18px;
+        }
+        #nav h3:first-child{
+            padding-top:80px;
+        }
+        #filter{
+            color: grey;
+            margin-top: 60px;
+            margin-left: 10%;
+        }
+        #option{
+            color: grey;
+            height: 30px;
+        }
+        hr{
+            width: 80%;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        #grid{
+            width: 77%;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            gap: 30px;
+
+        }
+        #grid>div{
+            height: 410px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        }
+        .img_div{
+            width: 94%;
+            height: 50%;
+            border: 1px solid teal;
+            margin: auto;
+            margin-top: 5px;
+            background-color: rgb(0, 170, 255);
+            display: grid;
+            justify-content: center;
+            align-items: center;
+        }
+        #first_img{
+            width: 40%;
+            height: 50%;
+            margin-left: 30%;
+        }
+        .text{
+            width: 88%;
+            margin: auto;
+            color: rgba(0, 0, 0, 0.743);
+            
+        }
+        .text>h2:last-child{
+            color:rgb(0, 170, 255);
+            font-size: 16px;
+            
+        }
+        #get_started{
+            width: 70%;
+            height: 280px;
+            margin: auto;
+            margin-top: 70px;
+            background-color: rgb(255, 132, 71);
+            text-align: center;
+            margin-bottom: 70px;
+        }
+        #get_started>div{
+            color: rgb(255, 255, 255);
+            margin: auto;
+            padding: 50px;
+        }
+        #btn{
+            width: 20%;
+            height: 40px;
+            background-color: rgb(255, 132, 71);
+            color: white;
+            border-color: white;
+        }
+        #btn:hover{
+            cursor: pointer;
+        }
+        /* media query */
+        @media all and (min-width: 401px) and (max-width: 800px) {
+        #grid{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            
+        }
+      }
+      /* Small screens */
+      @media all and (min-width: 100px) and (max-width: 400px) {
+        #grid{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            
+        }
+      }
+
+    </style>
+</head>
+<body>
+    <div id="nav">
+        <h3>CUSTOMER STORIES</h3>
+        <h1>Organizing The World</h1>
+        <h3>CoSchedule helps the world’s best marketing teams take control of their entire marketing strategy. See how these <br> featured customers have found success.</h3>
+    </div>
+    <div id="filter">FILTER :<span><select name="Filter" id="option">
+        <option value="All">All</option>
+        <option value="Technology">Technology</option>
+        <option value="Finance & Insurance">Finance & Insurance</option>
+        <option value="Agency">Agency</option>
+        <option value="Higher Education">Higher Education</option>
+        <option value="Hospitality & Tourism">Hospitality & Tourism</option>
+        <option value="Health & Wellness">Health & Wellness</option>
+        <option value="B2B">B2B</option>
+        <option value="B2C">B2C</option>
+    </select></span></div>
+    <hr>
+    <div id="grid">
+        <div>
+            <div class="img_div">
+                <div class="img_div_2"><img src="https://media.coschedule.com/uploads/2020/04/UofSC_Alumni_P_Vertical_White_Garnet_RGB-02.png" alt="" id="first_img"></div>
+            </div>
+            <div class="text">
+                <h2>This 5-Person Marketing Team Managed 12x More Work While Working Remotely</h2>
+                <h2>Read More</h2>
+            </div>
+            
+        </div>
+        <div>
+            <div class="img_div">
+                <div class="img_div_2"><img src="https://media.coschedule.com/uploads/umass-memorial-logo-white.png" alt=""></div>
+                </div>
+                <div class="text">
+                    <h2>How This Healthcare Company Created Instant Workload Visibility Across 3 Teams With Marketing Suite by CoSchedule</h2>
+                    <h2>Read More</h2>
+                </div>
+        </div>
+        <div>
+            <div class="img_div">
+                <div class="img_div_2"><img src="https://media.coschedule.com/uploads/laerdal-logo-white.png" alt=""></div>
+                </div>
+                <div class="text">
+                    <h2>Laerdal’s Global Marketing Team Increased Visibility By Centralizing Their Marketing Efforts with Marketing Suite by CoSchedule</h2>
+                    <h2>Read More</h2>
+                </div>
+        </div>
+        <div>
+            <div class="img_div">
+                <div class="img_div_2"><img src="https://media.coschedule.com/uploads/amp-my-brand-logo-white.png" alt=""></div>
+                </div>
+                <div class="text">
+                    <h2>How This Marketing Agency Drives Social Media Growth For 16 Franchisee Clients</h2>
+                    <h2>Read More</h2>
+                </div>
+        </div>
+        <div>
+            <div class="img_div">
+                <div class="img_div_2"><img src="https://media.coschedule.com/uploads/on24-logo-white.png" alt=""></div>
+                </div>
+                <div class="text">
+                    <h2>How One Marketing Team Quadrupled Their Content And Drove 1,412% More Organic Traffic To Their Blog</h2>
+                    <h2>Read More</h2>
+                </div>
+        </div>
+        <div>
+            <div class="img_div">
+                <div class="img_div_2"><img src="https://media.coschedule.com/uploads/graebel-logo-white.png" alt=""></div>
+                </div>
+                <div class="text">
+                    <h2>How This Global Brand Transformed Complex, Multi-Tool Marketing Into A Simplified Workflow</h2>
+                    <h2>Read More</h2>
+                </div>
+        </div>
+        <div>
+            <div class="img_div">
+                <div class="img_div_2"><img src="https://media.coschedule.com/uploads/simpleview-logo-02.png" alt=""></div>
+                </div>
+                <div class="text">
+                    <h2>Simpleview Completes 5x More Marketing Projects Every Month Using CoSchedule's Marketing Suite</h2>
+                    <h2>Read More</h2>
+                </div>
+        </div>
+    </div>
+    <div id="get_started">
+        <div>
+            <h1>Ready to get your marketing strategy organized?</h1>
+            <h3>Start Your Forever-Free CoSchedule Marketing Calendar.</h3>
+            <button id="btn">Get Started Free</button>
+        </div>
+    </div>
+    <div id="footersection"></div>
+
+</body>
+</html>
+<script type="module">
+    import footer from './components/footer.js'
+   document.getElementById("footersection").innerHTML=footer()
+    let btn=document.getElementById("btn").addEventListener("click",btnfunc);
+    function btnfunc(){
+        window.location.href="signup.html"
+    }
+</script>
