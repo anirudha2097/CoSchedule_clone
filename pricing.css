@@ -1,0 +1,130 @@
+#top{
+    background-color: #f8f8f8;
+    text-align: center;
+    padding-bottom: 20px;
+}
+#top img{
+    width: 20%;
+    height: 100px;
+}
+#top h1{
+    color: #4b4b4b;
+    font-size: 40px;
+}
+#top p{
+    font-size: 20px;
+}
+#top h4{
+    color: #787878;
+}
+#template{
+    width: 80%;
+    margin: 70px auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+#template div{
+    height: auto;
+    border: 1px solid #e9e9e9;
+    border-top: 4px solid #f7a282;
+    background-color: white;
+    padding: 0px 20px;
+    padding-bottom: 20px;
+}
+#template h4{
+    color: #f16640;
+}
+#template p{
+    font-size: 16px;
+}
+#dif{
+    background-color: white;
+    color: #f16640;
+    border: 3px solid #f16640 ;
+    padding: 5px 50px;
+    border-radius: 10px;
+}
+ button{
+    width: 300px;
+    background-color: #f16640;
+    color: white;
+    border: 0px;
+    padding: 5px 50px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#story{
+    width: 35%;
+    text-align: center;
+    margin: 50px auto;
+    line-height: 30px;
+}
+#story p{
+    font-size: 20px;
+    color: #afafaf;
+}
+h1:nth-child(3){
+    color: #4b4b4b;
+    font-size: 40px;
+    text-decoration: underline;
+    text-align: center;
+}
+#faq{
+    width: 70%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 40px;
+}
+#faq div{
+    text-align: left;
+    /* border: 1px solid black; */
+    line-height: 25px;
+}
+#faq h3{
+    color: #4b4b4b;
+}
+#faq p{
+   color: #4b4b4b;
+}
+#faq a{
+    color: orange;
+}
+
+/* medium screens */
+@media all and (min-width:830px) and (max-width:1250px) {
+    #template{
+        width: 80%;
+        margin: 70px auto;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px;
+    }
+    #faq{
+        width: 70%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 40px;
+    }
+}
+/* small screens */
+@media all and (min-width:300px) and (max-width:830px) {
+    #template{
+        width: 80%;
+        margin: 70px auto;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 20px;
+    }
+    #faq{
+        width: 70%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 40px;
+    }
+}
+
