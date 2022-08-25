@@ -1,0 +1,245 @@
+body{
+    background-color: rgb(246, 246, 246);
+}
+#content{
+    width: 1200px;
+    margin: auto;
+    margin-top: 120px;
+    text-align: center;
+    font-family: 'Albert Sans', sans-serif;
+}
+#content>h1{
+    width: 70%;
+    margin: auto;
+    line-height: 65px;
+    font-size: 49px;
+    color: rgb(74, 74, 74);
+}
+#content>p{
+    font-size: 1.1rem;
+    color: rgb(74, 74, 74);
+}
+#content h2{
+    font-size: 30px;
+    color: rgb(74, 74, 74);
+    font-weight: 800;
+}
+#btn1{
+    width: 215px;
+    height: 50px;
+    border: 0px;
+    background-color: #f37e5d;
+    color: white;
+    font-family: 'Albert Sans', sans-serif;
+    font-weight: 600;
+    border-radius: 3px;
+}
+#btn1:hover{
+    background-color: #f76238;
+}
+#btn1+p{
+    font-size: 0.9rem;
+    color: rgb(74, 74, 74);
+}
+#btn1+p+div{
+    width: 100%;
+    margin: auto;
+    margin-left: -30px;
+    margin-bottom: 70px;
+    padding: 0px 30px 80px 30px;
+    background-image: linear-gradient(to bottom, #F6F6F6, white);
+    color: rgb(74, 74, 74);
+}
+#btn1+p+div>img{
+    width: 100%;
+    margin: auto;
+}
+#btn1+p+div>h2{
+    width: 99.5%;
+    margin-top: -5px;
+    margin-left: -5px;
+    padding: 10px 8px;
+}
+#companyLogo1{
+    width: 99.5%;
+    margin: auto;
+    margin-left: -10px;
+    margin-top: -20px;
+    margin-bottom: 30px;
+    background-color: white;
+    padding: 0px 10px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+#companyLogo1>img, #companyLogo2>img{
+    width: 15%;
+}
+#ourProducts{
+    width: 80%;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 90px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 40px;
+    color: rgb(74, 74, 74);
+}
+#ourProducts>div{
+    background-color: white;
+    text-align: left;
+    padding: 0px 0px 40px 0px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px;
+    border-radius: 4px;
+}
+#ourProducts>div>img:nth-child(1){
+    width: 100%;
+    height: 115px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+#ourProducts>div>img:nth-child(2){
+    width: 13%;
+    position: relative;
+    top: -45px;
+    left: 40px;
+    border-radius: 3px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+#ourProducts>div>h3{
+    font-size: 22px;
+    margin-top: -20px;
+    margin-left: 40px;
+}
+#ourProducts>div>p{
+    width: 80%;
+    font-size: 0.95rem;
+    line-height: 25px;
+    margin-left: 40px;
+    color: rgb(74, 74, 74);
+}
+#ourProducts>div>li{
+    margin-left: 65px;
+    font-size: 0.95rem;
+    line-height: 30px;
+    list-style: none;
+    color: rgb(74, 74, 74);
+}
+#ourProducts>div>li::before{
+    font-family: 'FontAwesome';
+    content: '\f00c';
+    margin:0 6px 0 -15px;
+    color: #f76238;
+    font-size: 0.8rem;
+}
+#ourProducts>div>button{
+    width: 145px;
+    height: 45px;
+    margin-left: 40px;
+    margin-top: 30px;
+    font-family: 'Albert Sans', sans-serif;
+    font-weight: 600;
+    background-color: #ffede3;
+    border: 0px;
+    border-radius: 4px;
+    color: #f7805c;
+}
+#ourProducts>div>button:hover{
+    background-color: #fce2d4;
+}
+#ourProducts>div:nth-child(3)>button{
+    background-color: #dfe8f9;
+    color: #5e8eed;
+}
+#ourProducts>div:nth-child(3)>button:hover{
+    background-color: #c8d5ef;
+}
+#ourProducts>div:nth-child(4)>button{
+    background-color: #e6defa;
+    color: #865eed;
+}
+#ourProducts>div:nth-child(4)>button:hover{
+    background-color: #d8c9fd;
+}
+#awards{
+    width: 100%;
+    margin:auto;
+    margin-left: -30px;
+    padding: 40px 30px;
+    background-color: white;
+}
+#awards>div>div>h1{
+    color: rgb(74, 74, 74);
+    font-size: 50px;
+    line-height: 30px;
+    margin-top: 10px;
+}
+#awards>p{
+    font-size: 1.1rem;
+    margin-top: -20px;
+    color: rgb(74, 74, 74);
+}
+#awards>div{
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    display: flex;
+    gap: 30px;
+}
+#awards>div>div{
+    width: 32%;
+    padding: 50px 20px;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 3px 8px;
+}
+#awards>div>div:hover{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+#awards>div>div>h1>span{
+    font-size: 26px;
+}
+#awards>div>div>p{
+    width: 82%;
+    margin: auto;
+    margin-top: 30px;
+    font-size: 1.1rem;
+}
+#awards>div>div:nth-child(1)>p{
+    margin-top: 50px;
+}
+#awards>div>div>img{
+    margin-top: 10px;
+    width: 150px;
+}
+#awards>div>div:nth-child(3)>img{
+    margin-top: -5px;
+    width: 80px;
+}
+#organize{
+    width: 100%;
+    margin: auto;
+    margin-left: -32px;
+    margin-bottom: 20px;
+    padding: 50px 31px 70px 31px;
+    background-color: #f37e5d;
+    background-image: linear-gradient(to right, #f37e5d, #f6ab7a);
+}
+#organize>h2{
+    color: white;
+    font-size: 28px;
+}
+#organize>button{
+    width: 215px;
+    height: 50px;
+    border: 0px;
+    border-radius: 3px;
+    color: #f76238;
+    font-family: 'Albert Sans', sans-serif;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+#organize>button:hover{
+    background-color: #fbeae1;
+}
