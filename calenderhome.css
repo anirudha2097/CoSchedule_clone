@@ -1,0 +1,126 @@
+body {
+    background-color: #fef5e7;
+    color: #fff;
+  }
+  #navbar {
+    height: 30px;
+    width: 82%;
+    float: right;
+  
+    background-color: #fef5e7;
+  
+  }
+  #home {
+    padding-bottom: 5px;
+    font-weight: bolder;
+
+    color: #4d4d4d;
+    font-size: 15px;
+    line-height: 20px;
+    border: none;
+    
+    background-color: #fef5e7;
+  }
+  #container {
+    float: right;
+    height: auto;
+    width: 100%;
+    /* border: 2px solid blue; */
+    display: grid;
+    grid-template-columns:200px 650px 310px;
+    gap: 20px;
+  }
+  
+  #container > div {
+    /* border: 2px solid red; */
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 25%);
+    background-color: #fff;
+    padding-left: 20px;
+  }
+  #container > div:first-child
+  {
+    background-color: #fef5e7;
+    margin-right: -20px;
+  }
+  #top {
+    height: 40px;
+    border-bottom: 0.1px solid #4d4d4d;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: MuseoSans-700, "Helvetica Neue", Helvetica, Arial;
+  }
+  #top > div:first-child {
+    margin-left: 20px;
+    font-weight: bold;
+    color: #4d4d4d;
+  }
+  #top > div:first-child > h4 > i {
+    margin-right: 10px;
+
+    font-size: 18px;
+  }
+  #top > div:last-child {
+    margin-right: 20px;
+    line-height: 14px;
+  }
+  #top > div:last-child button {
+    background-color: #d17760;
+    color: #fff;
+    border-radius: 6px;
+    border: none;
+    font-weight: 400;
+    padding: 8px 12px;
+    font-size: 14px;
+    line-height: 14px;
+  }
+  #top > div:last-child i {
+    margin-right: 5px;
+  }
+  #box {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    color: #4d4d4d;
+    font-family: MuseoSans-700, "Helvetica Neue", Helvetica, Arial;
+  }
+
+  #sidenav {
+    height: 40px;
+    border-bottom: 0.1px solid #4d4d4d;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  #sidenav > div {
+    margin: auto;
+
+    font-family: MuseoSans-700, "Helvetica Neue", Helvetica, Arial;
+  }
+  #sidenav > div > button {
+    color: #4d4d4d;
+    border: none;
+    background-color: #fff;
+  }
+  #sidenav > div > button:hover {
+    color: #d17760;
+    font-weight: bolder;
+  }
+
+  #center > img {
+    width: 126px;
+    margin: 100px 90px;
+  }
+  .weektask {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    border-bottom: 1px solid #4d4d4d;
+  }
+
+  .weektask div:first-child {
+    margin-left: 20px;
+  }
+  .weektask div > i {
+    margin-right: 20px;
+  }
