@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calender</title>
+    <script src="https://kit.fontawesome.com/f426985a11.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="calender.css">
+</head>
+<body>
+    <div id="fullbox">
+
+    
+    <div id="sidebar"></div>
+    <div id="whole">
+        <div id="header">
+            <div id="first">
+                <div id="cal">
+                    <i class="fa-solid fa-calendar"></i>
+                    <h2>Calendar</h2>
+                </div>
+                <h1>/</h1>
+                <div>   
+                    <select id="select">
+                        <option value="all">All</option>
+                        <option value="all">Projects Only</option>
+                        <option value="all">Social Only</option>
+                    </select>
+                </div>
+                <button><i class="fa-solid fa-filter"></i></button>
+                <button><i class="fa-solid fa-tv"></i></button>
+                <button><i class="fa-solid fa-ellipsis-vertical"></i></button>
+            </div>
+
+            <div id="second">
+                <button><i class="fa-solid fa-trophy"></i></button>
+                <button><i class="fa-solid fa-bell"></i></button>
+            </div>
+        </div>
+
+
+
+        <div id="main">
+            <div id="create">
+                <div id="blank"></div>
+                <div id="datee">
+                    <button id="disdate">
+                       <h3> SEP 1 - SEP 28 ,2022</h3>
+                    </button>
+                </div>
+                <div id="btnss">
+                    <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                    <div>
+                        <button>
+                            <i class="fa-solid fa-plus"></i>
+                            <p>Create</p>
+                        </button>
+                    </div>
+                    <div>
+                        <button>
+                            <i class="fa-solid fa-lightbulb"></i>
+                            <p>Ideas</p>
+                            <i class="fa-solid fa-angle-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div id="calender">
+
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script src="calender.js"></script>
+</html>
