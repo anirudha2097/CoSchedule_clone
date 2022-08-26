@@ -1,5 +1,4 @@
 #whole{
-    /* border: 1px solid black; */
     width: 100vw;
     margin: auto;
     margin-left: 50px;
@@ -60,14 +59,11 @@
     border: 0px;
 }
 #main{
-    /* height: 825px; */
-    /* height: auto; */
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 #create{
     height: 60px;
-    /* border: 1px solid black; */
     display: flex;
     justify-content: space-between;
     border-radius: 10px 10px 0px 0px;
@@ -75,12 +71,10 @@
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 #btnss{
-    /* float: right; */
     display: flex;
     align-items: center;
     width: 230px;
     height: 50px;
-    /* border: 1px solid black; */
     justify-content: space-evenly;
 }
 #btnss div{
@@ -127,6 +121,5 @@
     border-right: 0px;
     border-bottom: 0px;
     padding-left: 10px;
-    /* font-weight: bold; */
    
 }
