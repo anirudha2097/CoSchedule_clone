@@ -33,6 +33,7 @@ body{
     font-family: 'Albert Sans', sans-serif;
     font-weight: 600;
     border-radius: 3px;
+    cursor: pointer;
 }
 #btn1:hover{
     background-color: #f76238;
@@ -144,6 +145,7 @@ body{
     border: 0px;
     border-radius: 4px;
     color: #f7805c;
+    cursor: pointer;
 }
 #ourProducts>div>button:hover{
     background-color: #fce2d4;
@@ -193,6 +195,7 @@ body{
     padding: 50px 20px;
     border-radius: 3px;
     box-shadow: rgba(0, 0, 0, 0.05) 0px 3px 8px;
+    cursor: pointer;
 }
 #awards>div>div:hover{
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -239,6 +242,7 @@ body{
     font-family: 'Albert Sans', sans-serif;
     font-weight: 600;
     font-size: 0.9rem;
+    cursor: pointer;
 }
 #organize>button:hover{
     background-color: #fbeae1;
