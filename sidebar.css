@@ -23,11 +23,8 @@
     color: #5f5e5e;
 }
 #sidebar>div:nth-child(3){
-<<<<<<< HEAD
     margin-top: 35vh;
-=======
     margin-top: 60vh;
->>>>>>> c56db28c32f8b179f0dcd23a4fc23e793bf73e30
 }
 #sidebar>div>img{
     width: 15px;
