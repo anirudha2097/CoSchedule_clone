@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/f426985a11.js" crossorigin="anonymous"></script>
     <link href="footer.css" rel="stylesheet">
+    <link rel="stylesheet" href="navbar.css">
     <title>Document</title>
     <style>
         #nav{
@@ -116,6 +117,7 @@
     </style>
 </head>
 <body>
+    <div id="topNav"></div>
     <div id="nav">
         <h3>CUSTOMER STORIES</h3>
         <h1>Organizing The World</h1>
@@ -217,4 +219,6 @@
     function btnfunc(){
         window.location.href="signup.html"
     }
+    import navbarSection from "./components/navbar.js"
+    document.getElementById("topNav").innerHTML=navbarSection();
 </script>
