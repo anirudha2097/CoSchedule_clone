@@ -2,7 +2,7 @@ body {
     background-color: #fef5e7;
     color: #fff;
   }
-  #navbar {
+  #calendernav {
     height: 30px;
     width: 82%;
     float: right;
@@ -18,7 +18,7 @@ body {
     font-size: 15px;
     line-height: 20px;
     border: none;
-    
+    margin-left: -150px;
     background-color: #fef5e7;
   }
   #container {
@@ -26,8 +26,8 @@ body {
     height: auto;
     width: 100%;
     /* border: 2px solid blue; */
-    display: grid;
-    grid-template-columns:200px 650px 310px;
+    display: flex;
+    /* grid-template-columns:60px 800px 300px; */
     gap: 20px;
   }
   
@@ -41,6 +41,11 @@ body {
   {
     background-color: #fef5e7;
     margin-right: -20px;
+    width: 60px;
+  }
+  #container > div:nth-child(2)
+  {
+width:900px
   }
   #top {
     height: 40px;
@@ -84,8 +89,12 @@ body {
     gap: 100px;
     color: #4d4d4d;
     font-family: MuseoSans-700, "Helvetica Neue", Helvetica, Arial;
+    overflow: scroll;
   }
-
+#right
+{
+  height: 800px;
+}
   #sidenav {
     height: 40px;
     border-bottom: 0.1px solid #4d4d4d;
@@ -109,13 +118,14 @@ body {
 
   #center > img {
     width: 126px;
-    margin: 100px 90px;
+    margin: 120px 80px;
   }
   .weektask {
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
     border-bottom: 1px solid #4d4d4d;
+    
   }
 
   .weektask div:first-child {
