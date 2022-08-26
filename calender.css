@@ -1,8 +1,10 @@
 #whole{
     /* border: 1px solid black; */
-    width: 1500px;
-    float: right;
+    width: 1250px;
     height: 500px;
+    margin: auto;
+    margin-left: 47px;
+    margin-top: -10px;
     /* overflow-y: scroll; */
 }
 #fullbox{
@@ -115,10 +117,11 @@
 }
 #calender{
     width: 100%;
-    /* height: auto; */
+    height: 440px;
     display: grid;
     grid-template-columns: repeat(7,1fr);
     gap: -3px;
+    overflow: scroll;
     /* overflow-y: scroll; */
 }
 #calender div{
