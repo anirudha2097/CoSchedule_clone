@@ -17,7 +17,7 @@ let query=false;
     if(query)
     {
       alert("Signin successful");
-      window.location.href="calenderhome.html";
+      window.location.href="sidebar.html";
     }
     else
     {
