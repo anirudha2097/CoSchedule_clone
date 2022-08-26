@@ -1,9 +1,8 @@
 #whole{
     /* border: 1px solid black; */
-    width: 1250px;
-    height: 500px;
+    width: 100vw;
     margin: auto;
-    margin-left: 47px;
+    margin-left: 50px;
     margin-top: -10px;
     /* overflow-y: scroll; */
 }
@@ -117,7 +116,7 @@
 }
 #calender{
     width: 100%;
-    height: 440px;
+    height: 85vh;
     display: grid;
     grid-template-columns: repeat(7,1fr);
     gap: -3px;
