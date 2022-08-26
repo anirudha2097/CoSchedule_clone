@@ -1,6 +1,6 @@
 function calenderHome()
 {
-    return `<div id="navbar">
+    return `<div id="calendernav">
     <button id="home"><i class="fa-solid fa-house"></i> Home</button>
   </div>
   <div id="container">
