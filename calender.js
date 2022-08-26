@@ -4,6 +4,7 @@ function displaygrid(){
 
     for(let i=1;i<n;i++){
         let div=document.createElement("div");
+        div.setAttribute("id",i);
 
         let h5=document.createElement("h5");
         h5.innerText= `Sep-${i}`;
@@ -14,3 +15,7 @@ function displaygrid(){
     }
 }
 displaygrid();
+
+document.querySelector(".addpro").addEventListener("click",function(){
+    window.location.href="createproject.html";
+});
