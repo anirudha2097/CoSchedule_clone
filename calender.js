@@ -19,7 +19,7 @@ function displaygrid(){
         let div=document.createElement("div");
 
         let h5=document.createElement("h5");
-        h5.innerText= `Sep ${i}`;
+        h5.innerText= `Sep-${i}`;
 
         
         div.append(h5);
