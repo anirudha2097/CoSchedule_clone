@@ -1,10 +1,12 @@
 #whole{
+<<<<<<< HEAD
     /* border: 1px solid black; */
+=======
+>>>>>>> c56db28c32f8b179f0dcd23a4fc23e793bf73e30
     width: 100vw;
     margin: auto;
     margin-left: 50px;
     margin-top: -10px;
-    /* overflow-y: scroll; */
 }
 #fullbox{
     display: flex;
@@ -12,7 +14,6 @@
 }
 #header{
     height: 65px;
-    /* border: 1px solid black; */
     display: flex;
     align-items: center;
     background-color: #f7f7f7;
@@ -20,10 +21,10 @@
     color: #333333;
 }
 #first{
-    /* border: 1px solid black; */
     display: flex;
     width: 450px;
     height: 55px;
+    padding-left: 20px;
     align-items: center;
     justify-content: space-evenly;
 }
@@ -62,14 +63,11 @@
     border: 0px;
 }
 #main{
-    /* height: 825px; */
-    /* height: auto; */
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 #create{
     height: 60px;
-    /* border: 1px solid black; */
     display: flex;
     justify-content: space-between;
     border-radius: 10px 10px 0px 0px;
@@ -77,12 +75,10 @@
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 #btnss{
-    /* float: right; */
     display: flex;
     align-items: center;
     width: 230px;
     height: 50px;
-    /* border: 1px solid black; */
     justify-content: space-evenly;
 }
 #btnss div{
@@ -120,9 +116,8 @@
     height: 85vh;
     display: grid;
     grid-template-columns: repeat(7,1fr);
-    gap: -3px;
     overflow: scroll;
-    /* overflow-y: scroll; */
+
 }
 #calender div{
     width: 100%;
@@ -130,5 +125,10 @@
     border: 1px dotted black;
     border-right: 0px;
     border-bottom: 0px;
+<<<<<<< HEAD
 
+=======
+    padding-left: 10px;
+   
+>>>>>>> c56db28c32f8b179f0dcd23a4fc23e793bf73e30
 }

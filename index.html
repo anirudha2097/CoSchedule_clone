@@ -97,7 +97,7 @@
         </div>
         <div id="organize">
             <h2>Organize all of your marketing in one place</h2>
-            <button>Get Started Free</button>
+            <button id="btn2">Get Started Free</button>
         </div>
     </div>
     <div id="footerSection"></div>
@@ -108,4 +108,17 @@
     document.getElementById('footerSection').innerHTML = footer();
     import navbarSection from "./components/navbar.js"
     document.getElementById('navbarSection').innerHTML = navbarSection();
+
+    document.getElementById('createCalBtn').onclick = () => {
+        location.href = "signin.html"
+    }
+    document.getElementById('customerStories').onclick = () => {
+        location.href = "customer_stories_page.html"
+    }
+    document.getElementById('btn2').onclick = () => {
+        location.href = "signin.html"
+    }
+    document.getElementById('btn1').onclick = () => {
+        location.href = "signin.html"
+    }
 </script>
