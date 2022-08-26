@@ -1,8 +1,5 @@
 #whole{
-<<<<<<< HEAD
-    /* border: 1px solid black; */
-=======
->>>>>>> c56db28c32f8b179f0dcd23a4fc23e793bf73e30
+
     width: 100vw;
     margin: auto;
     margin-left: 50px;
@@ -125,10 +122,5 @@
     border: 1px dotted black;
     border-right: 0px;
     border-bottom: 0px;
-<<<<<<< HEAD
-
-=======
     padding-left: 10px;
-   
->>>>>>> c56db28c32f8b179f0dcd23a4fc23e793bf73e30
 }
