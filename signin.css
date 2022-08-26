@@ -3,7 +3,7 @@
     height: 100vh;
  
     display: grid;
-    grid-template-columns: 780px 420px;
+    grid-template-columns: 1030px 490px;
   }
 
   #logo {
@@ -13,6 +13,8 @@
 
     margin: auto;
     margin-top: 50px;
+    margin-left: 80px;
+    
   }
   #logo > img {
     width: 100%;
@@ -22,7 +24,7 @@
     box-shadow: -2px 0 20px rgb(0 0 0 / 20%);
   }
   #inputs {
-    margin-left: 60px;
+    margin-left: 70px;
     margin-top: 50px;
   }
   input {
@@ -66,6 +68,7 @@
     text-align: center;
     color: #7e7e7e;
     font-family: MuseoSans-500, "Helvetica Neue", Helvetica, Arial;
+    margin-left: -30px;
   }
   #img > div {
     width: 100%;
