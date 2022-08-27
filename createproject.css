@@ -9,11 +9,6 @@
     color: rgba(128, 128, 128, 0.589);
    }
     #date{
-        border: 1px solid black;
-        width: 20%;
-        height: 40px;
-        margin-left: 50%;
-        margin-top: 120px;
     }
     #proname{
         width: 50%;
@@ -76,5 +71,4 @@
     }
     #option:hover{
         cursor: pointer;
-        
-    }
+        q 

@@ -116,11 +116,38 @@
     overflow: scroll;
 
 }
-#calender div{
+#calender>div{
     width: 100%;
     height: 250px;
     border: 1px dotted black;
     border-right: 0px;
     border-bottom: 0px;
     padding-left: 10px;
+}
+#calender>div>h5{
+    display: flex;
+    align-items: center;
+}
+#calender>div>h5::after{
+    content: "+";
+    font-size: 25px;
+    font-weight: 700;
+    margin-left: 55%;
+}
+#taskDiv{
+    display: flex;
+}
+#calender>div>div>h6{
+    font-size: 15px;
+}
+#calender>div>div{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#calender>div>div>button{
+    height: 15px;
+    font-size: 10px;
 }
