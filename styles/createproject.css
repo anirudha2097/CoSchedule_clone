@@ -70,3 +70,21 @@
     #option:hover{
         cursor: pointer;
     }
+    #date{
+        width: 14%;
+        margin-bottom: -2%;
+        margin-left: 55%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        background-color: rgb(245, 242, 242);   
+        font-family: 'Albert Sans', sans-serif;
+        font-size: 15px;
+        border-radius: 3px;
+        font-weight: 500;
+    }
+    #date::after{
+        content: '\f133';
+        font-family: FontAwesome;
+    }
