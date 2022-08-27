@@ -1,5 +1,5 @@
 body {
-    background-color: #fef5e7;
+    background-color: rgb(246, 246,246);
     color: #fff;
   }
   #calendernav {
@@ -7,7 +7,7 @@ body {
     width: 82%;
     float: right;
   
-    background-color: #fef5e7;
+    background-color: rgb(246, 246,246);
   
   }
   #home {
@@ -19,7 +19,7 @@ body {
     line-height: 20px;
     border: none;
     margin-left: -190px;
-    background-color: #fef5e7;
+    background-color: rgb(246, 246,246);
   }
   #container {
     float: right;
@@ -39,7 +39,7 @@ body {
   }
   #container > div:first-child
   {
-    background-color: #fef5e7;
+    background-color: rgb(246, 246, 246);
     margin-right: -20px;
     width: 50px;
   }
@@ -89,6 +89,7 @@ width:1100px
     gap: 100px;
     color: #4d4d4d;
     font-family: MuseoSans-700, "Helvetica Neue", Helvetica, Arial;
+    height:100vh;
     overflow: scroll;
   }
 #right
