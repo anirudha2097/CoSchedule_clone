@@ -8,8 +8,6 @@
     cursor: pointer;
     color: rgba(128, 128, 128, 0.589);
    }
-    #date{
-    }
     #proname{
         width: 50%;
         height: 60px;
@@ -71,4 +69,4 @@
     }
     #option:hover{
         cursor: pointer;
-        q 
+    } 
