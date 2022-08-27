@@ -19,3 +19,17 @@ displaygrid();
 document.querySelector(".addpro").addEventListener("click",function(){
     window.location.href="createproject.html";
 });
+
+
+document.getElementById("calenderHomeBtn").onclick = () => {
+    location.href = "sidebar.html";
+}
+document.getElementById("calenderBtn").onclick = () => {
+    location.href = "calender.html";
+}
+document.getElementById("analyticsBtn").onclick = () => {
+    location.href = "analytics.html";
+}
+document.getElementById('requeBtn').onclick = () => {
+    location.href = "Reqeue.html";
+}
