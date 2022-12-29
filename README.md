@@ -8,6 +8,11 @@ We have design this website using HTML, CSS and make this website responsive usi
 <li>Suneet Panigrahi</li>
 <li>Raj</li>
 </br>
+<span><b>Tech Stacks:-</b></span>
+<li>HTML</li>
+<li>CSS</li>
+<li>JavaScript</li>
+</br>
 <span><b>Features:-</b></span>
 <li>SignIn/SignUp</li>
 <li>Add/Remove Tasks in calender</li>
